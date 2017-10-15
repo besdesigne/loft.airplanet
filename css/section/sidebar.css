@@ -1,0 +1,64 @@
+.sidebar{
+    width: 140px;
+    float: left;
+}
+
+.navigation__link{
+    text-decoration: none;
+}
+.navigation__item{
+    margin-bottom: 25px;
+}
+.navigation__link:hover .navigation__text {
+    color: #221f1f;
+}
+
+.navigation__text{
+    font-size: 12px;
+    color: #1c5bc3;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 2.4px;
+}
+
+.navigation__icon {
+    margin-right: 6px;
+    width: 28px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../img/incon_menu.png') no-repeat;
+}
+.navigation__icon-main{
+    background-position: -5px -34px;
+}
+.navigation__link:hover .navigation__icon-main{
+    background-position: -33px -34px;
+}
+.navigation__icon-team{
+    background-position: -67px -5px;
+}
+
+.navigation__link:hover .navigation__icon-team {
+    background-position: -67px -33px;
+}
+.navigation__icon-feed{
+    background-position: -5px -5px
+}
+.navigation__link:hover  .navigation__icon-feed {
+    background-position: -36px -5px;
+}
+.active .navigation__text{
+    color: #221f1f;
+}
+.active .navigation__icon-main{
+    background-position: -33px -34px;
+}
+.active .navigation__icon-team {
+    background-position: -67px -33px;
+}
+.active .navigation__icon-feed {
+    background-position: -36px -5px;
+}

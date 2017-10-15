@@ -1,0 +1,90 @@
+@import url('./layout/base.css');
+@import url('./section/sidebar.css');
+@import url('./section/maincontent.css');
+@import url('./section/footer.css');
+@import url('./section/header.css');
+
+
+.maincontent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/intro_bg.jpg) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+
+.intro{
+    width: 208px;
+    height: 272px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -104px 0 0 -136px;
+    text-align: center;
+}
+
+.intro__logo {
+    margin: 0 auto; 
+    position: relative; 
+    margin-bottom: 40px;
+}
+.intro__logo svg{
+    height: 185px;  
+}
+.intro__btn{
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    transition: 800ms;
+    display: inline-block;
+    border: 1px solid #1c5bc4;
+    border-radius: 3px;
+    width: 208px;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+}
+.intro__btn:hover{
+    background-color: #1c5bc4;
+}
+.intro__btn a{
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    transition: 800ms;
+    text-decoration: none;
+    color: #1c5bc4;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 45px;
+
+}
+
+
+.intro__btn:hover a{
+    color: #fff;
+}
+
+
+.main_icon{
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    transition: 800ms;
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    vertical-align: middle;
+    background: url('../img/icons/main_icon-start.png') center center  no-repeat;
+}
+.intro__btn:hover .main_icon{
+    background: url('../img/icons/main_icon-start_a.png') center center  no-repeat;
+
+}
+
+
+
+
+
