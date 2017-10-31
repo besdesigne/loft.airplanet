@@ -8,5 +8,5 @@
 
 **Курс**: Основы Вёрстки *(09.2017)*
 
-**Сайт**: 
+**Сайт**: https://sbistritchi.github.io/loft.airplanet/
 
